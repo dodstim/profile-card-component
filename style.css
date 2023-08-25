@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--bc-main: hsl(186, 75, 37, 100%);
+
+	--first-color-text: hsl(240, 11, 21, 100%);
+	--secundary-color-text: hsl(0, 0, 82, 100%);
+
+	--ff-main: 'Poppins';
+	--fw-dk-data: bolder;
+	--fw-ifm: 400;
+}
+
+body {
+	background-color: #1795A4;
+}
+
+#container-all {
+	-webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+	background-color: white;
+	border-radius: 5px;
+	max-width: 300px;
+	margin: 0 auto;
+	padding-bottom: 1.23em;
+	margin-top: 7em;
+}
+
+#wallpaper-account > img {
+	border-radius: 5px 5px 0px 0px;
+	width: 100%;
+	height: 134px;
+}
+
+#info-account {
+	width: 300px;
+	margin: 0 auto;
+}
+
+#profile-avatar > img {
+	border-radius: 50px;
+	border: 4px solid white;
+	margin-top: -3.5rem;
+	margin-left: 6rem;
+}
+
+#data-victor-crest {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 0.7em;
+}
+
+#data-victor-crest > p {
+	color: var(--first-color-text);
+	font-family: var(--ff-main);
+	font-weight: var(--fw-dk-data);
+}
+
+#person-age, #location {
+	color: var(--secundary-color-text);
+	font-family: var(--ff-main);
+	font-weight: var(--fw-ifm);
+	opacity: 60%;
+}
+
+#collection-data {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	gap: 1.5em;
+	margin-top: 1.5em;
+	font-family: var(--ff-main);
+	text-align: center;
+}
+
+.dk-data {
+	color: var(--first-color-text);
+	font-weight: var(--fw-dk-data);
+	font-size: 1.5rem;
+}
+
+.datas {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
